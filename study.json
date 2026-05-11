@@ -1,5 +1,5 @@
 {
-  "name": "Cybersecurity Bacholer",
+  "name": "Cybersecurity Bachelor",
   "start_date": "2025-12-01",
   "goal_grade": 1.7,
   "goal_duration": 36,
@@ -34,7 +34,7 @@
           "status": "completed",
           "name": "Einführung in Datenschutz und IT-Sicherheit",
           "ects": 5,
-          "start_date": "2026-12-01",
+          "start_date": "2025-12-01",
           "progress": {
             "total_units": 8,
             "completed_units": 8,
