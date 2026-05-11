@@ -1,0 +1,12 @@
+[project]
+name = "python-study-dashboard"
+version = "0.1.0"
+description = "Terminalbasiertes Studienfortschritts-Dashboard mit Textual und SQLite"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "textual>=8.2.4",
+    "textual-plotext>=1.0.1",
+]
+
+

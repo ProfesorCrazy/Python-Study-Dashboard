@@ -1,5 +1,6 @@
 # Import libraries
 from typing import Iterable
+from textual.app import SystemCommand, Screen, App
 from textual_plotext import PlotextPlot
 
 from database import Database
@@ -53,6 +54,10 @@ class StudyDashboard(App):
             # Display an error message if semester data is not available
             raise Exception("No semester data available")
 
+        # Check if semester has exactly 5 modules
+        if len(self.semester.modules) < 4:
+            raise Exception("Semester must have at least 4 modules")
+
 
     def compose(self) -> ComposeResult:
         # Display the header
@@ -61,18 +66,18 @@ class StudyDashboard(App):
         # Display the ECTS overview
         yield PlotextPlot(id="ects-overview", disabled=True)
 
-        # Display 4/5 modules
-        yield ModuleWidget(self.semester.modules[0], self.gradient)
-        yield ModuleWidget(self.semester.modules[1], self.gradient)
-        yield ModuleWidget(self.semester.modules[2], self.gradient)
-        yield ModuleWidget(self.semester.modules[3], self.gradient)
+        # Display the first 4 modules
+        for i, module in enumerate(self.semester.modules[:4]):
+            yield ModuleWidget(module, self.gradient)
 
         # Display the grade overview
         yield PlotextPlot(id="study-grade-overview", disabled=True)
         yield PlotextPlot(id="semester-grade-overview", disabled=True)
 
-        # Display the bottom module
-        yield ModuleWidget(self.semester.modules[4], self.gradient, classes="bottom-module")
+        # Check if semester has 5 modules
+        if len(self.semester.modules) > 4:
+            # Dsiplay the bottom module
+            yield ModuleWidget(self.semester.modules[4], self.gradient, classes="bottom-module")
 
 
     def get_system_commands(self, screen: Screen) -> Iterable[SystemCommand]:
