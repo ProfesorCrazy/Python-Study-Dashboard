@@ -150,52 +150,6 @@ python main.py
 
 Nach dem Start wird eine Terminaloberfläche geöffnet. Die Anwendung importiert die Studiendaten aus `study.json`, speichert sie in einer SQLite-Datenbank und zeigt anschließend die wichtigsten Kennzahlen zum Studienfortschritt an.
 
-## Datenbasis
-
-Die Studiendaten werden aus der Datei `study.json` importiert. Diese Datei enthält Informationen zu:
-
-- Studiengang
-- Semestern
-- Modulen
-- ECTS-Punkten
-- Lernfortschritt
-- Prüfungen
-- Prüfungsarten
-- Noten
-
-Beim Start der Anwendung werden die Daten in die SQLite-Datenbank übernommen. Bereits vorhandene Einträge werden aktualisiert.
-
-## Beispielhafte Kennzahlen
-
-Das Dashboard berechnet unter anderem:
-
-- gewichteten Notendurchschnitt
-- Durchschnittsnote pro Semester
-- kumulierte ECTS-Punkte
-- durchschnittlichen ECTS-Fortschritt
-- Lernfortschritt einzelner Module
-- Fortschritt verschiedener Prüfungsarten
-
-## Objektorientierte Konzepte
-
-Im Projekt werden zentrale objektorientierte Konzepte umgesetzt:
-
-- Klassen und Objekte
-- Dataclasses
-- Komposition
-- Aggregation
-- Vererbung
-- Polymorphie
-- Kapselung durch klare Verantwortlichkeiten
-- Typannotationen
-- optionale Werte mit `None`
-
-Ein Beispiel für Polymorphie ist die Methode `get_progress_percent()`. Jede Prüfungsart implementiert ihre eigene Fortschrittsberechnung, während die UI diese Methode unabhängig vom konkreten Prüfungstyp aufrufen kann.
-
-## Ziel des Prototyps
-
-Der Prototyp soll zeigen, dass das entwickelte Konzept mit Python technisch umsetzbar ist. Der Fokus liegt dabei nicht auf einer produktionsreifen Anwendung, sondern auf einer nachvollziehbaren objektorientierten Modellierung und einer funktionierenden prototypischen Umsetzung.
-
 ## Autor
 
 Josua Würzle

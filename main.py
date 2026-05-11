@@ -1,9 +1,6 @@
 # Import libraries
 from typing import Iterable
 from textual_plotext import PlotextPlot
-from textual.color import Gradient
-from textual.app import App, ComposeResult, SystemCommand
-from textual.widgets import *
 
 from database import Database
 from importer import Importer

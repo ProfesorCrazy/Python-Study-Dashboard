@@ -2,9 +2,8 @@
 from models import *
 from textual.containers import *
 from textual.widgets import *
-from textual.screen import Screen
 from textual.color import Gradient
-from textual.app import App, ComposeResult, SystemCommand
+from textual.app import ComposeResult
 
 
 class ModuleProgressWidget(Static):
