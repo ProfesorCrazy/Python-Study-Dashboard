@@ -119,7 +119,7 @@ class ExamWidget(Static):
             # Display the exam date and completion status
             yield Static(f"[b]Prüfungs Datum[/b]: {self.date}", classes="exam")
             yield Static("Fortschritt", classes="title")
-            yield ProgressBar(total=self.progress, show_eta=False, gradient=self.gradient, id="exam_progress", classes="exam-progress")
+            yield ProgressBar(total=100, show_eta=False, gradient=self.gradient, id="exam_progress", classes="exam-progress")
 
     def on_mount(self) -> None:
         # Query the exam progress bar

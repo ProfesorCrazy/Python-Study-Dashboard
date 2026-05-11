@@ -7,8 +7,8 @@
   "semesters": [
     {
       "name": "Semester 1",
-      "start_date": "2023-12-01",
-      "end_date": "2026-06-30",
+      "start_date": "2025-12-01",
+      "end_date": "2026-05-31",
       "modules": [
         {
           "status": "completed",
@@ -104,10 +104,7 @@
             "exam_type": "PortfolioExam",
             "exam_date": "2026-06-30",
             "completed": false,
-            "grade": {
-              "value": 0.0,
-              "weight": 1.0
-            },
+            "grade": null,
             "phase_1_done": true,
             "phase_2_done": false,
             "phase_3_done": false,
@@ -118,8 +115,8 @@
     },
     {
       "name": "Semester 2",
-      "start_date": "2023-12-01",
-      "end_date": "2026-06-30",
+      "start_date": "2026-06-01",
+      "end_date": "2027-12-31",
       "modules": [
         {
           "status": "in_progress",
@@ -135,10 +132,7 @@
             "exam_type": "AdvancedWorkbookExam",
             "exam_date": "2026-04-27",
             "completed": false,
-            "grade": {
-              "value": 0.0,
-              "weight": 1.0
-            },
+            "grade": null,
             "tasks_done": 0,
             "tasks_total": 6
           }
