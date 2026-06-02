@@ -1,0 +1,3 @@
+textual>=8.2.4
+textual-plotext>=1.0.1
+python-dotenv>=1.0.0
