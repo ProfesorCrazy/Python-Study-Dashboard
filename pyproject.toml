@@ -7,9 +7,18 @@ requires-python = ">=3.13"
 dependencies = [
     "textual>=8.2.4",
     "textual-plotext>=1.0.1",
+    "python-dotenv>=1.0.0",
 ]
 
-[tool.setuptools]
-py-modules = ["main", "models", "database", "importer", "ui"]
+[project.scripts]
+study-dashboard = "StudyDashboard.main:main"
 
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
 
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.setuptools.package-data]
+StudyDashboard = ["*.tcss"]

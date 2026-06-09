@@ -91,7 +91,7 @@
           }
         },
         {
-          "status": "in_progress",
+          "status": "completed",
           "name": "Projekt: Objektorientierte und funktionale Programmierung mit Python",
           "ects": 5,
           "start_date": "2026-02-16",
@@ -102,13 +102,13 @@
           },
           "exam": {
             "exam_type": "PortfolioExam",
-            "exam_date": "2026-06-30",
-            "completed": false,
+            "exam_date": "2026-05-12",
+            "completed": true,
             "grade": null,
             "phase_1_done": true,
-            "phase_2_done": false,
-            "phase_3_done": false,
-            "final_submission_ready": false
+            "phase_2_done": true,
+            "phase_3_done": true,
+            "final_submission_ready": true
           }
         }
       ]
@@ -116,25 +116,513 @@
     {
       "name": "Semester 2",
       "start_date": "2026-06-01",
-      "end_date": "2027-12-31",
+      "end_date": "2026-11-30",
       "modules": [
         {
-          "status": "in_progress",
+          "status": "completed",
           "name": "Einführung in das wissenschaftliche Arbeiten für IT und Technik",
           "ects": 5,
           "start_date": "2026-02-16",
           "progress": {
             "total_units": 7,
-            "completed_units": 6,
-            "learned_units": 6
+            "completed_units": 7,
+            "learned_units": 7
           },
           "exam": {
             "exam_type": "AdvancedWorkbookExam",
-            "exam_date": "2026-04-27",
+            "exam_date": "2026-05-18",
+            "completed": true,
+            "grade": null,
+            "tasks_done": 6,
+            "tasks_total": 6
+          }
+        },
+        {
+          "status": "in_progress",
+          "name": "Einführung in die Netzwerkforensik",
+          "ects": 5,
+          "start_date": "2026-05-19",
+          "progress": {
+            "total_units": 10,
+            "completed_units": 4,
+            "learned_units": 0
+          },
+          "exam": {
+            "exam_type": "Exam",
+            "exam_date": "2026-07-08",
+            "completed": false,
+            "grade": null
+          }
+        },
+        {
+          "status": "not_started",
+          "name": "Projekt: Agiles Projektmanagement",
+          "ects": 5,
+          "start_date": "2026-09-21",
+          "progress": {
+            "total_units": 8,
+            "completed_units": 0,
+            "learned_units": 0
+          },
+          "exam": {
+            "exam_type": "ProjectReportExam",
+            "exam_date": "2026-11-25",
+            "milestones_total": 3,
+            "milestones_done": 0,
+            "product_finished": false,
+            "reflection_done": false,
+            "grade": null
+          }
+        },
+        {
+          "status": "not_started",
+          "name": "Requirements Engineering",
+          "ects": 5,
+          "start_date": "2026-07-13",
+          "progress": {
+            "total_units": 8,
+            "completed_units": 0,
+            "learned_units": 0
+          },
+          "exam": {
+            "exam_type": "Exam",
+            "exam_date": "2026-09-16",
+            "completed": false,
+            "grade": null
+          }
+        },
+        {
+          "status": "not_started",
+          "name": "Statistik - Wahrscheinlichkeit und deskriptive Statistik",
+          "ects": 5,
+          "start_date": "2026-09-21",
+          "progress": {
+            "total_units": 5,
+            "completed_units": 0,
+            "learned_units": 0
+          },
+          "exam": {
+            "exam_type": "Exam",
+            "exam_date": "2026-11-11",
+            "completed": false,
+            "grade": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Semester 3",
+      "start_date": "2026-12-01",
+      "end_date": "2027-05-31",
+      "modules": [
+        {
+          "status": "not_started",
+          "name": "Grundzüge des System-Pentestings",
+          "ects": 5,
+          "start_date": "2026-12-01",
+          "progress": {
+            "total_units": 8,
+            "completed_units": 0,
+            "learned_units": 0
+          },
+          "exam": {
+            "exam_type": "Exam",
+            "exam_date": "2027-01-13",
+            "completed": false,
+            "grade": null
+          }
+        },
+        {
+          "status": "not_started",
+          "name": "Theoretische Informatik und Mathematische Logik",
+          "ects": 5,
+          "start_date": "2026-12-01",
+          "progress": {
+            "total_units": 8,
+            "completed_units": 0,
+            "learned_units": 0
+          },
+          "exam": {
+            "exam_type": "Exam",
+            "exam_date": "2027-02-10",
+            "completed": false,
+            "grade": null
+          }
+        },
+        {
+          "status": "not_started",
+          "name": "Social Engineering und Insider Threats",
+          "ects": 5,
+          "start_date": "2026-12-01",
+          "progress": {
+            "total_units": 5,
+            "completed_units": 0,
+            "learned_units": 0
+          },
+          "exam": {
+            "exam_type": "CaseStudyExam",
+            "exam_date": "2027-03-10",
             "completed": false,
             "grade": null,
-            "tasks_done": 0,
-            "tasks_total": 6
+            "analysis_progress": 0,
+            "solution_defined": false,
+            "reflection_done": false
+          }
+        },
+        {
+          "status": "not_started",
+          "name": "Technische und betriebliche IT-Sicherheitskonzeptionen",
+          "ects": 5,
+          "start_date": "2026-12-01",
+          "progress": {
+            "total_units": 6,
+            "completed_units": 0,
+            "learned_units": 0
+          },
+          "exam": {
+            "exam_type": "Exam",
+            "exam_date": "2027-04-14",
+            "completed": false,
+            "grade": null
+          }
+        },
+        {
+          "status": "not_started",
+          "name": "Projekt: Social Engineering",
+          "ects": 5,
+          "start_date": "2026-12-01",
+          "progress": {
+            "total_units": 5,
+            "completed_units": 0,
+            "learned_units": 0
+          },
+          "exam": {
+            "exam_type": "ProjectPresentationExam",
+            "exam_date": "2027-05-12",
+            "completed": false,
+            "grade": null,
+            "slides_done": 0,
+            "slides_total": 12,
+            "rehearsals_done": 0,
+            "ready_for_presentation": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "Semester 4",
+      "start_date": "2027-06-01",
+      "end_date": "2027-11-30",
+      "modules": [
+        {
+          "status": "not_started",
+          "name": "DevSecOps und gängige Software-Schwachstellen",
+          "ects": 5,
+          "start_date": "2027-06-01",
+          "progress": {
+            "total_units": 6,
+            "completed_units": 0,
+            "learned_units": 0
+          },
+          "exam": {
+            "exam_type": "HomeworkExam",
+            "exam_date": "2027-07-14",
+            "completed": false,
+            "grade": null,
+            "pages_written": 0,
+            "pages_target": 10,
+            "literature_progress": 0,
+            "outline_done": false
+          }
+        },
+        {
+          "status": "not_started",
+          "name": "Kryptografische Verfahren",
+          "ects": 5,
+          "start_date": "2027-06-01",
+          "progress": {
+            "total_units": 8,
+            "completed_units": 0,
+            "learned_units": 0
+          },
+          "exam": {
+            "exam_type": "CaseStudyExam",
+            "exam_date": "2027-08-11",
+            "completed": false,
+            "grade": null,
+            "analysis_progress": 0,
+            "solution_defined": false,
+            "reflection_done": false
+          }
+        },
+        {
+          "status": "not_started",
+          "name": "Host- und Softwareforensik",
+          "ects": 5,
+          "start_date": "2027-06-01",
+          "progress": {
+            "total_units": 8,
+            "completed_units": 0,
+            "learned_units": 0
+          },
+          "exam": {
+            "exam_type": "Exam",
+            "exam_date": "2027-09-15",
+            "completed": false,
+            "grade": null
+          }
+        },
+        {
+          "status": "not_started",
+          "name": "Seminar: Aktuelle Themen in Computer Science",
+          "ects": 5,
+          "start_date": "2027-06-01",
+          "progress": {
+            "total_units": 5,
+            "completed_units": 0,
+            "learned_units": 0
+          },
+          "exam": {
+            "exam_type": "SeminarPaperExam",
+            "exam_date": "2027-10-13",
+            "completed": false,
+            "grade": null,
+            "pages_written": 0,
+            "pages_target": 15,
+            "literature_progress": 0,
+            "outline_done": false
+          }
+        },
+        {
+          "status": "not_started",
+          "name": "Projekt: Einsatz und Konfiguration von SIEM-Systemen",
+          "ects": 5,
+          "start_date": "2027-06-01",
+          "progress": {
+            "total_units": 5,
+            "completed_units": 0,
+            "learned_units": 0
+          },
+          "exam": {
+            "exam_type": "ProjectReportExam",
+            "exam_date": "2027-11-17",
+            "completed": false,
+            "grade": null,
+            "milestones_done": 0,
+            "milestones_total": 3,
+            "product_finished": false,
+            "reflection_done": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "Semester 5",
+      "start_date": "2027-12-01",
+      "end_date": "2028-05-31",
+      "modules": [
+        {
+          "status": "not_started",
+          "name": "Threat Modeling",
+          "ects": 5,
+          "start_date": "2027-12-01",
+          "progress": {
+            "total_units": 6,
+            "completed_units": 0,
+            "learned_units": 0
+          },
+          "exam": {
+            "exam_type": "Exam",
+            "exam_date": "2028-01-12",
+            "completed": false,
+            "grade": null
+          }
+        },
+        {
+          "status": "not_started",
+          "name": "Standards der Informationssicherheit",
+          "ects": 5,
+          "start_date": "2027-12-01",
+          "progress": {
+            "total_units": 6,
+            "completed_units": 0,
+            "learned_units": 0
+          },
+          "exam": {
+            "exam_type": "CaseStudyExam",
+            "exam_date": "2028-02-09",
+            "completed": false,
+            "grade": null,
+            "analysis_progress": 0,
+            "solution_defined": false,
+            "reflection_done": false
+          }
+        },
+        {
+          "status": "not_started",
+          "name": "Projekt: Threat Modeling",
+          "ects": 5,
+          "start_date": "2027-12-01",
+          "progress": {
+            "total_units": 5,
+            "completed_units": 0,
+            "learned_units": 0
+          },
+          "exam": {
+            "exam_type": "ProjectReportExam",
+            "exam_date": "2028-05-10",
+            "completed": false,
+            "grade": null,
+            "milestones_done": 0,
+            "milestones_total": 3,
+            "product_finished": false,
+            "reflection_done": false
+          }
+        },
+        {
+          "status": "not_started",
+          "name": "Static and Dynamic Malware Analysis",
+          "ects": 5,
+          "start_date": "2027-12-01",
+          "progress": {
+            "total_units": 7,
+            "completed_units": 0,
+            "learned_units": 0
+          },
+          "exam": {
+            "exam_type": "Exam",
+            "exam_date": "2028-03-15",
+            "completed": false,
+            "grade": null
+          }
+        },
+        {
+          "status": "not_started",
+          "name": "Principles of Ethical Hacking",
+          "ects": 5,
+          "start_date": "2027-12-01",
+          "progress": {
+            "total_units": 8,
+            "completed_units": 0,
+            "learned_units": 0
+          },
+          "exam": {
+            "exam_type": "Exam",
+            "exam_date": "2028-04-12",
+            "completed": false,
+            "grade": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Semester 6",
+      "start_date": "2028-06-01",
+      "end_date": "2028-11-30",
+      "modules": [
+        {
+          "status": "not_started",
+          "name": "Projekt: Allgemeine Programmierung mit C/C++",
+          "ects": 5,
+          "start_date": "2028-06-01",
+          "progress": {
+            "total_units": 8,
+            "completed_units": 0,
+            "learned_units": 0
+          },
+          "exam": {
+            "exam_type": "PortfolioExam",
+            "exam_date": "2028-09-13",
+            "completed": false,
+            "grade": null,
+            "phase_1_done": false,
+            "phase_2_done": false,
+            "phase_3_done": false,
+            "final_submission_ready": false
+          }
+        },
+        {
+          "status": "not_started",
+          "name": "Bachelorarbeit",
+          "ects": 9,
+          "start_date": "2028-06-01",
+          "progress": {
+            "total_units": 4,
+            "completed_units": 0,
+            "learned_units": 0
+          },
+          "exam": {
+            "exam_type": "BachelorThesisExam",
+            "exam_date": "2028-11-15",
+            "completed": false,
+            "grade": null,
+            "pages_written": 0,
+            "pages_target": 40,
+            "milestones_done": 0,
+            "milestones_total": 4,
+            "submitted": false
+          }
+        },
+        {
+          "status": "not_started",
+          "name": "Kolloquium",
+          "ects": 1,
+          "start_date": "2028-06-01",
+          "progress": {
+            "total_units": 1,
+            "completed_units": 0,
+            "learned_units": 0
+          },
+          "exam": {
+            "exam_type": "ColloquiumExam",
+            "exam_date": "2028-11-29",
+            "completed": false,
+            "grade": null,
+            "presentation_ready": false,
+            "rehearsals_done": 0,
+            "questions_prepared": false
+          }
+        },
+        {
+          "status": "not_started",
+          "name": "Project: Pentesting",
+          "ects": 5,
+          "start_date": "2028-06-01",
+          "progress": {
+            "total_units": 5,
+            "completed_units": 0,
+            "learned_units": 0
+          },
+          "exam": {
+            "exam_type": "ProjectReportExam",
+            "exam_date": "2028-07-12",
+            "completed": false,
+            "grade": null,
+            "milestones_done": 0,
+            "milestones_total": 3,
+            "product_finished": false,
+            "reflection_done": false
+          }
+        },
+        {
+          "status": "not_started",
+          "name": "Seminar: Threat Hunting, Analysis and Incident Response",
+          "ects": 5,
+          "start_date": "2028-06-01",
+          "progress": {
+            "total_units": 5,
+            "completed_units": 0,
+            "learned_units": 0
+          },
+          "exam": {
+            "exam_type": "SeminarPaperExam",
+            "exam_date": "2028-08-09",
+            "completed": false,
+            "grade": null,
+            "pages_written": 0,
+            "pages_target": 15,
+            "literature_progress": 0,
+            "outline_done": false
           }
         }
       ]
