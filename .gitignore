@@ -10,3 +10,5 @@ __pycache__/
 dist/
 .cache/
 node_modules/
+*.tmp
+*.db

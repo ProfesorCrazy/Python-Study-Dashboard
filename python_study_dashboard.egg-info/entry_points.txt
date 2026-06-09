@@ -1,2 +1,0 @@
-[console_scripts]
-study-dashboard = StudyDashboard.main:main
